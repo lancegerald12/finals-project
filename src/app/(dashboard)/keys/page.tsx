@@ -127,7 +127,7 @@ export default function KeysPage() {
           <Card className="rounded-2xl border border-sky-200 bg-white/90 shadow-lg backdrop-blur-sm">
             <CardHeader>
               <CardTitle className="text-xl font-semibold text-sky-700">
-                Your New API Key
+                Your New API Key is the api key hahaha
               </CardTitle>
             </CardHeader>
             <CardContent>
