@@ -8,6 +8,7 @@ import { pgTableCreator } from "drizzle-orm/pg-core";
  * @see https://orm.drizzle.team/docs/goodies#multi-project-schema
  */
 
+
 export const createTable = pgTableCreator((name) => `natsirt${name}`);
 
 export const apiKeys = createTable("api_keys", (d) => ({
